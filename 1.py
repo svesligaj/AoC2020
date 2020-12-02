@@ -5,7 +5,7 @@ def first(lista):
                 if lista[i] + lista[j] + lista[k] == 2020:
                     return lista[i]*lista[j]*lista[k]
 
-puzzle = [int(line.strip()) for line in open("D:\Advent of Code\\2020\\1.12\inputs\d1a.txt", "r")]
+puzzle = [int(line.strip()) for line in open("D:\Advent of Code\\2020\inputs\day1.txt", "r")]
 
 print(first([1721, 979, 366, 299, 675, 1456]))
 

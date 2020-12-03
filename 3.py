@@ -15,20 +15,9 @@ def second(forest, checklist):
     return trees
 
 
-
-
-
-
-
-
-
-
-
-
-
 if __name__ == "__main__":
     puzzle = [line.strip() for line in open("D:\Advent of Code\\2020\inputs\day3.txt", "r")]
     print(first(puzzle, (3, 1)))
     print(second(puzzle, [(1, 1), (3, 1), (5, 1), (7, 1), (1, 2)]))
     
-    
+   

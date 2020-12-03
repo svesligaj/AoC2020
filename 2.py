@@ -27,7 +27,6 @@ def second(lista):
         cond_min, cond_max = numbers
         conditional, useless = elements[1]
         string = elements[2]
-
         if conditional == string[int(cond_min)-1] or conditional == string[int(cond_max)-1]:
             counter+=1
             if conditional == string[int(cond_max)-1] and conditional == string[int(cond_min)-1]:
@@ -45,8 +44,7 @@ def second(lista):
 
 if __name__ == "__main__":
     test = ["1-3 a: abcde", "1-3 b: cdefg", "2-9 c: ccccccccc"]
-    puzzle = [line.strip() for line in open("D:\Advent of Code\\2020\inputs\day2.txt", "r")]
-    
+    puzzle = [line.strip() for line in open("D:\Advent of Code\\2020\inputs\input_day2_1.txt", "r")]
 
     print(first(test))
     print(first(puzzle))
